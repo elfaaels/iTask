@@ -22,6 +22,7 @@
 		BBB49A3C2B89CD2F0058677F /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB49A3B2B89CD2F0058677F /* NewTaskItemView.swift */; };
 		BBB49A3E2B89D8600058677F /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB49A3D2B89D8600058677F /* ListRowItemView.swift */; };
 		BBB49A442B89DB0E0058677F /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB49A432B89DB0E0058677F /* CheckboxStyle.swift */; };
+		BBB49A462B89DFD70058677F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB49A452B89DFD70058677F /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BBB49A3B2B89CD2F0058677F /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 		BBB49A3D2B89D8600058677F /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		BBB49A432B89DB0E0058677F /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		BBB49A452B89DFD70058677F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				BBB49A342B89C1000058677F /* Constant.swift */,
+				BBB49A452B89DFD70058677F /* AudioPlayer.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				BBB49A3E2B89D8600058677F /* ListRowItemView.swift in Sources */,
 				BBB49A1B2B89B5880058677F /* Persistence.swift in Sources */,
+				BBB49A462B89DFD70058677F /* AudioPlayer.swift in Sources */,
 				BBB49A3A2B89CABC0058677F /* BackgroundImageView.swift in Sources */,
 				BBB49A142B89B5870058677F /* ContentView.swift in Sources */,
 				BBB49A382B89C5AF0058677F /* HideKeyboardExtension.swift in Sources */,

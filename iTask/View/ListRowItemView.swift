@@ -24,6 +24,7 @@ struct ListRowItemView: View {
         .toggleStyle(CheckboxStyle())
         .onReceive(item.objectWillChange, perform: { _ in
             if self.viewContext.hasChanges {
+                playSound(sound: "sound-rise", type: "mp3")
                 try? self.viewContext.save()
             }
         })

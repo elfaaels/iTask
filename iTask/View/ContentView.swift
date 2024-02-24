@@ -68,12 +68,18 @@ struct ContentView: View {
                             )
                         Button(action: {
                             addItem()
+                            playSound(sound: "sound-ding", type: "mp3")
                         }, label: {
                             Spacer()
                             Text("SAVE")
                             Spacer()
                         })
                         .disabled(isButtonDisabled)
+                        .onTapGesture {
+                            if isButtonDisabled {
+                                playSound(sound: "sound-tap", type: "mp3")
+                            }
+                        }
                         .padding()
                         .font(.headline)
                         .foregroundColor(.white)
