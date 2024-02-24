@@ -25,6 +25,7 @@ struct ListRowItemView: View {
         .onReceive(item.objectWillChange, perform: { _ in
             if self.viewContext.hasChanges {
                 playSound(sound: "sound-rise", type: "mp3")
+                feedback.notificationOccurred(.success)
                 try? self.viewContext.save()
             }
         })
